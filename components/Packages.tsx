@@ -10,7 +10,7 @@ const Packages = () => {
     <section className='max-container padding-container pt-16 bg-slate-100'>
       <h3 className="bold-52 text-center">Our Packages</h3>
       <p className='m-8 text-center'>
-      Set out on unforgettable adventures with our thoughtfully curated packages, tailored to immerse you in the essence of every destination. Encounter opulence, excitement, and cultural diversity as you traverse the globe with us. Allow us to transform your travel aspirations into enduring memories..
+      Set out on unforgettable adventures with our thoughtfully curated packages, tailored to immerse you in the essence of every destination. Encounter opulence, excitement, and cultural diversity as you traverse the globe with us. Allow us to transform your travel aspirations into enduring memories.
       </p>
       {/* 7-seater packages */}
       <h3 className="bold-40 text-gray-500 relative">7 Seater Packages:</h3>
@@ -55,6 +55,10 @@ type PackageItem = {
   duration: string;
 }
 const PackageItem = ({title, URL, price, des, duration}: PackageItem) => {
+  // WhatsApp message template
+  const whatsappMessage = `Hello! I would like to book the ${title} package for ${duration}. Please provide more details.`;
+  const whatsappUrl = `https://wa.me/+971529042161?text=${encodeURIComponent(whatsappMessage)}`;
+  
   return(
     <div className='overflow-hidden rounded-tl-xl rounded-tr-xl border border-slate-200 group'>
       <div className='overflow-hidden relative'>
@@ -65,15 +69,21 @@ const PackageItem = ({title, URL, price, des, duration}: PackageItem) => {
         width={510}
         className='group-hove:scale-105 group-hover:rotate-2 transition-all duration-500'
         />
-        {/* <Link href="/"className="absolute top-1/2 left-1/2 h-14 w-14 bg-white flexCenter rounded-full -translate-x-1/2 -translate-y-1/2 group-hover: scale-100 transition-all duration-500"><RiSearchLine /></Link> */}
       </div>
       <div className='p-4 bg-white'>
-      <div className='capitalize medium-18 flexBetween'>{title} <span className='medium-14'>{price}</span></div>
-      <p className='text-gray-500 my-3 regular-14 border-b border-gray-200 pb-3'>{des}</p>
-      <div className='flexBetween'>
-        <p className='flexStart gap-2 text-gray-500'><RiTimeLine/><span className='medium-14'>{duration}</span></p>
-        <Link href='/' className='mediun-14 px-4 py-2 rounded-md border bg-black text-white'><span>Book now</span></Link>
-      </div>
+        <div className='capitalize medium-18 flexBetween'>{title} <span className='medium-14'>{price}</span></div>
+        <p className='text-gray-500 my-3 regular-14 border-b border-gray-200 pb-3'>{des}</p>
+        <div className='flexBetween'>
+          <p className='flexStart gap-2 text-gray-500'><RiTimeLine/><span className='medium-14'>{duration}</span></p>
+          <a 
+            href={whatsappUrl} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className='mediun-14 px-4 py-2 rounded-md border bg-black text-white hover:bg-gray-800 transition-colors'
+          >
+            Book now
+          </a>
+        </div>
       </div>
     </div>
   )

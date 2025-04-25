@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const CEOMessage = () => {
   return (
-    <>
+    <section className='max-container bg-slate-100'>
       <Head>
         <title>CEO Message | Manzar Alsamaa Tourism</title>
         <meta name="description" content="A message from our CEO, Asad Iqbal" />
@@ -18,22 +18,22 @@ const CEOMessage = () => {
           </p>
         </section>
 
+        {/* CEO Portrait - Now above the message on all screens */}
+        <div className="flex justify-center mb-12 lg:hidden">
+          <div className="relative w-full max-w-md aspect-square rounded-xl overflow-hidden shadow-lg">
+            <Image
+              src="/ceo.jpg"
+              alt="Asad Iqbal, CEO of Manzar Alsamaa Tourism LLC"
+              fill
+              className="object-cover"
+              priority
+            />
+          </div>
+        </div>
+
         {/* CEO Message Section */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
-          {/* CEO Portrait - Left Column */}
-          <div className="lg:col-span-1 flex justify-center">
-            <div className="relative w-full max-w-md aspect-square rounded-xl overflow-hidden shadow-lg">
-              <Image
-                src="/ceo.jpg" // Replace with your actual CEO image path
-                alt="Asad Iqbal, CEO of Manzar Alsamaa Tourism LLC"
-                fill
-                className="object-cover"
-                priority
-              />
-            </div>
-          </div>
-
-          {/* Message Content - Right Column */}
+          {/* Message Content - Left Column on lg+ */}
           <div className="lg:col-span-2 bg-gray-10 p-8 md:p-12 rounded-xl shadow-sm">
             <div className="space-y-6">
               <h2 className="bold-24 text-green-90 border-b pb-4 border-gray-20">
@@ -54,6 +54,19 @@ const CEOMessage = () => {
                 <p className="regular-16 text-gray-30">Asad Iqbal</p>
                 <p className="regular-16 text-gray-30">CEO, Manzar Alsamaa Tourism LLC</p>
               </div>
+            </div>
+          </div>
+
+          {/* CEO Portrait - Right Column on lg+ (hidden on smaller screens) */}
+          <div className="hidden lg:flex lg:col-span-1 justify-center">
+            <div className="relative w-full max-w-md aspect-square rounded-xl overflow-hidden shadow-lg">
+              <Image
+                src="/ceo.jpg"
+                alt="Asad Iqbal, CEO of Manzar Alsamaa Tourism LLC"
+                fill
+                className="object-cover"
+                priority
+              />
             </div>
           </div>
         </div>
@@ -88,7 +101,7 @@ const CEOMessage = () => {
           </div>
         </section>
       </main>
-    </>
+    </section>
   );
 };
 

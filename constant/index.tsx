@@ -161,121 +161,105 @@ export const SOCIALS = {
 // PACKAGES
 
 export const PACKAGES7 = [
-    
     {
         title: "Full Day Dubai",
         price: "475 AED",
         URL: "/pkg1-dubai-1.jpg",
-        des: "Embark on an unforgatable advanture with our all-inclusive tour and travel packages, offering immersive experience and arrangments",
+        des: "Discover Dubai's iconic landmarks in our full-day tour, covering Burj Khalifa, Dubai Mall, Palm Jumeirah, and traditional souks. Experience the perfect blend of modernity and Arabian heritage.",
         duration: "10-12 Hrs"
     },
-    
     {
         title: "Full Day Sharjah",
         price: "500 AED",
         URL: "/pkg1-sharjah.jpeg",
-        des: "Embark on an unforgatable advanture with our all-inclusive tour and travel packages, offering immersive experience and arrangments",
+        des: "Explore Sharjah's cultural treasures including the Sharjah Museum of Islamic Civilization, Blue Souk, and Al Noor Island. A journey through the UAE's artistic and historical heart.",
         duration: "10-12 Hrs"
     },
-    
     {
         title: "Half Day Dubai",
         price: "350 AED",
         URL: "/pkg-dubai01.jpg",
-        des: "Embark on an unforgatable advanture with our all-inclusive tour and travel packages, offering immersive experience and arrangments",
+        des: "Perfect for time-conscious travelers, this half-day tour covers Dubai's highlights including Jumeirah Mosque, Burj Al Arab photo stop, and Madinat Jumeirah's traditional marketplace.",
         duration: "05 Hrs"
     },
-    
     {
         title: "Half Day Sharjah",
         price: "330 AED",
         URL: "/pkg-sharjah002.jpg",
-        des: "Embark on an unforgatable advanture with our all-inclusive tour and travel packages, offering immersive experience and arrangments",
+        des: "A condensed cultural experience featuring Sharjah's most famous landmarks including the Sharjah Art Museum and the picturesque Al Qasba waterfront district.",
         duration: "05 Hrs"
     },
-    
     {
         title: "Full Day AUH",
         price: "575 AED",
         URL: "/pkg-auh.jpg",
-        des: "Embark on an unforgatable advanture with our all-inclusive tour and travel packages, offering immersive experience and arrangments",
+        des: "Immerse yourself in Abu Dhabi's grandeur with visits to Sheikh Zayed Grand Mosque, Louvre Abu Dhabi, and Yas Island's stunning attractions including Ferrari World.",
         duration: "10-12 Hrs"
     },
-    
     {
         title: "Full Day RAK",
         price: "575 AED",
         URL: "/pkg-rak.jpg",
-        des: "Embark on an unforgatable advanture with our all-inclusive tour and travel packages, offering immersive experience and arrangments",
+        des: "Experience Ras Al Khaimah's natural wonders from Jebel Jais mountains to the serene beaches, including visits to Dhayah Fort and the traditional pearl diving village.",
         duration: "10-12 Hrs"
     },
-    
     {
         title: "Full Day Fujairah",
         price: "675 AED",
         URL: "/pkg-alfuj.jpg",
-        des: "Embark on an unforgatable advanture with our all-inclusive tour and travel packages, offering immersive experience and arrangments",
+        des: "Discover Fujairah's unique east coast charm with its historic forts, stunning waterfalls at Wadi Wurayah, and the beautiful Al Aqah beach with crystal-clear waters.",
         duration: "10-12 Hrs"
     },
-
 ]
 
 export const PACKAGES15 = [
-    
     {
         title: "Full Day Dubai",
         price: "600 AED",
         URL: "/pkg1-dubai-1.jpg",
-        des: "Embark on an unforgatable advanture with our all-inclusive tour and travel packages, offering immersive experience and arrangments",
+        des: "Our premium Dubai tour for groups includes VIP access to At The Top Burj Khalifa, luxury dhow cruise dinner, and exclusive shopping experiences at Dubai's finest boutiques.",
         duration: "10-12 Hrs"
     },
-    
     {
         title: "Full Day Sharjah",
         price: "650 AED",
         URL: "/pkg1-sharjah.jpeg",
-        des: "Embark on an unforgatable advanture with our all-inclusive tour and travel packages, offering immersive experience and arrangments",
+        des: "An enhanced cultural journey through Sharjah featuring private museum tours, traditional Emirati lunch experience, and guided walkthrough of the Heart of Sharjah heritage area.",
         duration: "10-12 Hrs"
     },
-    
     {
         title: "Half Day Dubai",
         price: "400 AED",
         URL: "/pkg-dubai01.jpg",
-        des: "Embark on an unforgatable advanture with our all-inclusive tour and travel packages, offering immersive experience and arrangments",
+        des: "Executive half-day experience including private transport to Dubai's most Instagram-worthy locations with professional photography stops and refreshments included.",
         duration: "05 Hrs"
     },
-    
     {
         title: "Half Day Sharjah",
         price: "400 AED",
         URL: "/pkg-sharjah002.jpg",
-        des: "Embark on an unforgatable advanture with our all-inclusive tour and travel packages, offering immersive experience and arrangments",
+        des: "Premium cultural tour featuring behind-the-scenes access to Sharjah's art galleries and a private meeting with local artisans at the Calligraphy Museum.",
         duration: "05 Hrs"
     },
-    
     {
         title: "Full Day AUH",
         price: "675 AED",
         URL: "/pkg-auh.jpg",
-        des: "Embark on an unforgatable advanture with our all-inclusive tour and travel packages, offering immersive experience and arrangments",
+        des: "Luxury Abu Dhabi experience with private guide at Qasr Al Watan presidential palace, premium tickets to Louvre Abu Dhabi, and sunset drinks at Emirates Palace.",
         duration: "10-12 Hrs"
     },
-    
     {
         title: "Full Day RAK",
         price: "675 AED",
         URL: "/pkg-rak.jpg",
-        des: "Embark on an unforgatable advanture with our all-inclusive tour and travel packages, offering immersive experience and arrangments",
+        des: "Exclusive Ras Al Khaimah adventure including Jebel Jais zipline experience, private beach club access, and gourmet lunch at a mountain-view restaurant.",
         duration: "10-12 Hrs"
     },
-    
     {
         title: "Full Day Fujairah",
         price: "700 AED",
         URL: "/pkg-alfuj.jpg",
-        des: "Embark on an unforgatable advanture with our all-inclusive tour and travel packages, offering immersive experience and arrangments",
+        des: "Ultimate east coast experience featuring private snorkeling trip to Snoopy Island, 4WD mountain safari, and seafood feast at a beachfront restaurant.",
         duration: "10-12 Hrs"
     },
-
 ]
