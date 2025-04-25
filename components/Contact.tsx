@@ -103,7 +103,7 @@ const Contact = () => {
             <h2 className="bold-18 text-green-90 mb-6">Our Location</h2>
             <div className="flex-grow w-full h-full min-h-[400px] md:min-h-[500px]">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215256835371!2d-73.98810768459382!3d40.74844047932799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1784656646447!2d55.27218771500928!3d25.19719798389671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sMohamed%20Hamed%20Saif%20Alrumhi%20Building!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
